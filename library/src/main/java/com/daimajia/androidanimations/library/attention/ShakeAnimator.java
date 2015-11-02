@@ -34,7 +34,7 @@ public class ShakeAnimator extends BaseViewAnimator {
     @Override
     public void prepare(View target) {
         getAnimatorAgent().playTogether(
-                ObjectAnimator.ofFloat(target, "translationX", 0, 25, -25, 25, -25,15, -15, 6, -6, 0)
+                ObjectAnimator.ofFloat(target, "translationY", 0, 25, -25, 25, -25,15, -15, 6, -6, 0)
         );
     }
 }
